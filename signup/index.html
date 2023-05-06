@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoping site</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div id="header">
+        <nav>
+          <div id="nav-brand">
+            <h3>Myshop</h3>
+          </div>
+          <div id="nav-links">
+            <a href="#">Home</a>
+            <a href="./login/index.html">Login</a>
+            <a href="./signup/index.html">Signup</a>
+            <a href="./cart/index.html">My Cart</a>
+            <a href="./profile/index.html">Profile</a>
+          </div>
+        </nav>
+      </div>
+      <div class="headng2"><h5>Sign Up</h5></div>
+      <div class="SignUpPg" id="signing">
+        <form>
+          <input type="text" id="fname" name="fname" required placeholder="First Name" />
+          <br /><br />
+          <input type="text" id="lname" name="lname" required placeholder="Last Name" />
+          <br /><br />
+          <input type="email" id="email" name="fmail" required placeholder="Email" />
+          <br /><br />
+          <input type="password" id="pass" name="fpass" required placeholder="Password" />
+          <br /><br />
+          <input type="password" id="cpass" name="cpass" required placeholder="Confirm Password" />
+          <br /><br />
+
+          <button type="submit" class="btn">Signup</button>
+        </form>
+      </div>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
